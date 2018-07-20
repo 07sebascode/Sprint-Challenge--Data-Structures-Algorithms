@@ -17,5 +17,10 @@ g) O(n)
 
 Excercise II:
 
-a) 
+a) if a[j]-a[i] > 0:
+     return a[j]
+   else if a[j]-a[i] < 0:
+     return a[i]
+   else:
+    return None
 
